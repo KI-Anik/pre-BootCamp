@@ -44,6 +44,12 @@ body {
     font-size: 1rem;
     cursor: pointer;
   }
+
+  ol{
+    list-style-type: decimal;
+    list-style-position: inside;
+    padding-left: 0;
+  }
   
   li {
     display: flex;
@@ -53,3 +59,4 @@ body {
     padding: 5px 0;
     border-bottom: 1px solid #ddd;
   }
+
